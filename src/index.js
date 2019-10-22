@@ -5,10 +5,10 @@ import history from "./history";
 
 import LandingPage from "./containers/LandingPage/LandingPage";
 
+
 ReactDOM.render((
   <Router history={history}>
     <Route exact path="/" component={LandingPage} />
-
   </Router>
 ), document.getElementById('root'));
 

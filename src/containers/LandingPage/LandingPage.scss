@@ -1,4 +1,8 @@
+@import "../../styles/main.scss";
+
+.heading {
+  @extend .heading;
+}
+
 .container {
-  font-size: 4rem;
-  color: gray;
 }

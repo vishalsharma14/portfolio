@@ -1,16 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import './styles/App.scss'
-
-// import Components
-import DiabeticRetinopathy from './Views/DiabeticRetinopathy'
-
+import styles from "styles/main.scss";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className={styles.container}>
 
     </div>
   );
