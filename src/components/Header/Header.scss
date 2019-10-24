@@ -10,10 +10,10 @@
 .heading {
   @extend .heading;
 
+  width: 120px;
+
   @media (min-width: 20rem) and (max-width: 48rem) {
-    display: flex;
     place-items: center;
-    flex: 1;
     margin-left: 3%;
   }
 }
