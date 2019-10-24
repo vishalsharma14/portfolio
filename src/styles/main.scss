@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,9 +7,22 @@ body {
 .heading {
   cursor: pointer;
   font-family: "open sans", sans-serif;
-  font-size: 24px;
+  font-size: $heading-font-size;
   font-weight: 700;
   letter-spacing: 5px;
   margin: 60px auto;
   text-align: center;
+}
+
+.subHeading {
+  color: $primary-color;
+  font-size: $sub-heading-font-size;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.text {
+  color: $primary-color;
+  font-size: $text-font-size;
+  font-weight: 300;
 }

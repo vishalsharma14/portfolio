@@ -11,16 +11,11 @@
   margin: 0 18%;
   width: 64%;
 
-  // @media (min-width: 48rem) and (max-width: 64rem) {
-  //   margin: 0 %;
-  //   width: 80%;
+  // @media (min-width: 20rem) and (max-width: 48rem) {
+  //   flex-direction: column-reverse;
+  //   margin: 0 3%;
+  //   width: 94%;
   // }
-
-  @media (min-width: 20rem) and (max-width: 48rem) {
-    flex-direction: column-reverse;
-    margin: 0 3%;
-    width: 94%;
-  }
 }
 
 .picture {
@@ -28,11 +23,21 @@
   height: auto;
 }
 
-.picDiv {
+.contactDiv {
+  margin: 50px 0 0 100px;
   flex: 1;
+
+  .text {
+    @extend .text;
+    line-height: 24px;
+  }
+
+  @media (min-width: 20rem) and (max-width: 48rem) {
+    margin: 0;
+  }
 }
 
-.content {
+.formDiv {
   flex: 1;
 }
 
@@ -65,4 +70,9 @@
 .connectBtn {
   color: #2aa8cc;
   cursor: pointer;
+}
+
+.socialLogo {
+  margin: 10px 30px 0 0;
+  width: 45px;
 }

@@ -1,22 +1,18 @@
 import React from "react";
-import history from "../../history";
 import NavBar from "../../components/NavBar/NavBar";
+import Header from "../../components/Header/Header";
 import { NAV_ITEMS } from "../../constants/constants";
 import PROFILE_PIC from "../../assets/vishal.jpg";
+import { navigate } from "../../utils/utils";
 
 import styles from "./AboutContainer.scss";
 
-const homePageLink = () => {
-  history.push("/");
-}
 
 export default function AboutContainer() {
 
   return (
     <div>
-      <p className={styles.heading} onClick={homePageLink}>
-        VISHAL
-      </p>
+      <Header location={NAV_ITEMS.about} />
       <div className={styles.container}>
         <div className={styles.picDiv}>
           <img className={styles.picture} src={PROFILE_PIC} alt="profile pic" />
@@ -29,6 +25,7 @@ export default function AboutContainer() {
             <div className={styles.text}>
               I am a software engineer with 3+ years of experience. My passion lies in
               Web Development and problem solving.
+              <p className={styles.connectBtn} onClick={() => navigate(NAV_ITEMS.contact)}>Connect with me</p>
             </div>
           </div>
         </div>
