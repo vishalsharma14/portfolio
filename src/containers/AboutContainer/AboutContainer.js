@@ -25,7 +25,19 @@ export default function AboutContainer() {
             <div className={styles.text}>
               I am a software engineer with 3+ years of experience. My passion lies in
               Web Development and problem solving.
-              <p className={styles.connectBtn} onClick={() => navigate(NAV_ITEMS.contact)}>Connect with me</p>
+              {/* <p className={styles.connectBtn} onClick={() => navigate(NAV_ITEMS.contact)}>Connect with me</p> */}
+              <div className={styles.skillSubHeading}>
+                SKILLS
+              </div>
+              <p className={styles.skillText}>
+                <b>Languages/Frameworks:</b> Django, Python, NodeJS (Express), ReactJS, Flask, JavaScript (ES6).
+              </p>
+              <p>
+                <b>Databases:</b> MySQL, PostGreSQL, MongoDB, Redis, Elastic Cache, Elastic Search
+              </p>
+              <p>
+                <b>Other:</b> HTML5, CSS3, Git, Web Development, Integrations, Unix/Linux, AWS Services.
+              </p>
             </div>
           </div>
         </div>

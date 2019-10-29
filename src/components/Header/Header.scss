@@ -10,6 +10,8 @@
 .heading {
   @extend .heading;
 
+  margin: 60px auto;
+
   width: 120px;
 
   @media (min-width: 20rem) and (max-width: 48rem) {
@@ -19,7 +21,7 @@
 }
 
 .mobileNav {
-  margin: 60px;
+  // margin: 60px;
 
   @media (min-width: 20rem) and (max-width: 48rem) {
     display: flex;

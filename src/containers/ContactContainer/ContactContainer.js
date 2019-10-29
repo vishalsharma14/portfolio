@@ -3,7 +3,9 @@ import NavBar from "../../components/NavBar/NavBar";
 import Header from "../../components/Header/Header";
 import { NAV_ITEMS } from "../../constants/constants";
 import githubLogo from "../../assets/github.svg";
-import linkedInLogo from "../../assets/linkedin.png";
+// import linkedInLogo from "../../assets/linkedin.png";
+import linkedInLogo from "../../assets/linkedin.svg";
+// import linkedInLogo from "../../assets/linkedin-1.svg";
 import { GITHUB_URL, LINKEDIN_URL } from "../../constants/constants";
 
 import styles from "./ContactContainer.scss";
