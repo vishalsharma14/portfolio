@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #2a2a2a;
+  bottom: 15px;
+  height: 41px;
+  margin: 0 20%;
+  overflow: hidden;
+  position: fixed;
+  width: 60%;
+
+  @media (min-width: 20rem) and (max-width: 48rem) {
+    display: none;
+  }
+}
+
+.items {
+  color: #808080;
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  transition: color 0.4s ease 0s;
+}
+
+.item {
+  cursor: pointer;
+  text-align: center;
+  line-height: 41px;
+  padding: 0 10px;
+}
+
+.selectedItem {
+  color: #fff;
+}

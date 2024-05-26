@@ -1,0 +1,31 @@
+@import "../../styles/main.scss";
+
+.container {
+  @media (min-width: 20rem) and (max-width: 48rem) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.heading {
+  @extend .heading;
+
+  margin: 60px auto;
+
+  width: 120px;
+
+  @media (min-width: 20rem) and (max-width: 48rem) {
+    place-items: center;
+    margin-left: 3%;
+  }
+}
+
+.mobileNav {
+  // margin: 60px;
+
+  @media (min-width: 20rem) and (max-width: 48rem) {
+    display: flex;
+    margin: auto;
+    margin-right: 6%;
+  }
+}

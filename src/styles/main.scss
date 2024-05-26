@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: $heading-font-size;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.subHeading {
+  color: $primary-color;
+  font-size: $sub-heading-font-size;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.text {
+  color: $primary-color;
+  font-size: $text-font-size;
+  font-weight: 300;
+}
