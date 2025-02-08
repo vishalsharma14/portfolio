@@ -8,7 +8,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  margin: 0 20%;
+  margin: 0 20% 10%;
   width: 60%;
 
   // @media (min-width: 48rem) and (max-width: 64rem) {
@@ -47,6 +47,10 @@
   @media (min-width: 20rem) and (max-width: 48rem) {
     margin: 30px 0;
   }
+
+  p {
+    text-align: justify;
+  }
 }
 
 .subHeading {
@@ -69,6 +73,10 @@
   line-height: 24px;
   margin-top: 25px;
   // text-align: justify;
+}
+
+.aboutMe {
+  white-space: pre-line;
 }
 
 .connectBtn {
