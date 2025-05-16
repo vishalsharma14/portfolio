@@ -22,7 +22,7 @@ export default function ContactContainer(props) {
             CONTACT
           </div>
           <div className={styles.text}>
-            <p>vishal.sharma9597@gmail.com</p>
+            <p>vishalupadhyay9597@gmail.com</p>
             <a href={GITHUB_URL}>
               <img className={styles.socialLogo} src={githubLogo} alt="github logo" />
             </a>
